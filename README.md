@@ -18,4 +18,7 @@ eval "$(curl https://get.x-cmd.com)"
 
 ```
 x env use lazygit
+lazygit --config | grep "lang"                                      # 查看 lazygit 当前使用的自然语言
+lazygit -cd                                                         # 获取 lazygit 的配置文件目录
+printf "gui:\n  language: zh-CN\n" > "$(lazygit -cd)/config.yml"    # 修改 lazygit 配置文件，如将语言设置为中文
 ```
