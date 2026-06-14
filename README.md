@@ -11,4 +11,11 @@ eval "$(curl https://get.x-cmd.com)"
 ```
 
 ---
+
 ## Git|Github|LazyGit
+
+本仓库存在GitHub，默认网络环境正常且懂得基本使用。这里引入Lazygit作为TUI，方便识别和观察。
+
+```
+x env use lazygit
+```
